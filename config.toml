@@ -1,0 +1,73 @@
+baseurl = "/"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "Avalon Lin"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[Params]
+  homeTitle = "Life and Data"
+  subtitle = "From small beginnings become great things"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  useHLJS = true
+  socialShare = true
+  footer = "Avalon@2018"
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Avalon Lin"
+  email = "avalonliberty32@gmail.com"
+  github = "https://github.com/avalonliberty"
+  linkedin = "https://www.linkedin.com/in/avalon-lin-102696a3"
+
+
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 2
+
+[[menu.main]]
+    parent = "Categories"
+    name = "Life"
+    url = "Categories/Life"
+    weight = 1
+
+[[menu.main]]
+    parent = "Categories"
+    name = "Data Science"
+    url = "Categories/datascience"
+    weight = 2
+
+[[menu.main]]
+    identifier = "Categories"
+    name = "Categories"
+    url = "Categories"
+    weight = 1

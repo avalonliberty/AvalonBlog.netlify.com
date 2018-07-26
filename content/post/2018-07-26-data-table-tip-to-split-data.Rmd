@@ -1,0 +1,45 @@
+---
+title: data.table tip to split data
+author: Avalon
+date: '2018-07-26'
+slug: data-table-tip-to-split-data
+categories:
+  - DataScience
+tags:
+  - R
+  - data.table
+  - tstrsplit
+subtitle: ''
+---
+
+## Motivation
+
+The invention of internet and booming users of it contribute to the massive
+amount of data that we never met before. We can easily access to valuable data like weather, traffic, and so on. Though, it pretty likely that the data are format in comma separated format or seperated by given symbols. The most common case is file name. It's not a surprise to see some file name like 1992-07-09_Avalon_Male_Taiwan. The first part seperated by "_" is the DOB of the person, second part is name, third part is sex and the last part is country. We can easily get this kind of data from internet; yet, we require an efficient way to deal with this issue. I would give it a bet that the first solution come to your mind is using strsplit function in R base. However, the return data type of strsplit function is list format and can cause another trouble to users. Here, we would introduce a simple method from data.table package. Taking advantage of the package, we are able to address the problem in just few lines of code.
+
+First, we need to create a sample data.table
+```{r}
+library(data.table) # importing data.table
+fileName <- data.table(complexFile = c("1992-07-09_Avalon_Male_Taiwan",
+                                       "2018-07-26_Alice_Female_US"))
+fileName
+```
+
+After creating the table, our mission is to split the sequence by "_". The <mark>tstrsplit</mark> provide us the tool to complete this task.
+```{r}
+fileName[, c("DateOfBirth", "Name", "Sex", "Country") := tstrsplit(complexFile, "_")]
+fileName
+```
+
+In most cases, we often want to extract the year, month and day of DOB respectively. Thus, we are required to complete the second time of <mark>
+tstrsplit</mark> to finish our job.
+```{r}
+fileName[, c("Year", "Month", "Day") := tstrsplit(DateOfBirth, "-")]
+fileName[, `:=`(complexFile = NULL, DateOfBirth = NULL)]
+fileName
+```
+
+Done! We just use several lines of code to complete this tedious task. This advanced technique could save you a lot of time. Nonetheless, data.table is a
+improved version of data.frame. If you are not familiar with syntax of data.table, you had better to walk through [the tutorial](https://github.com/Rdatatable/data.table/wiki/Getting-started) of this package
+
+
