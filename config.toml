@@ -44,8 +44,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [Author]
   name = "Avalon Lin"
   email = "avalonliberty32@gmail.com"
-  github = "https://github.com/avalonliberty"
-  linkedin = "https://www.linkedin.com/in/avalon-lin-102696a3"
+  github = "avalonliberty"
+  linkedin = "avalon-lin-102696a3"
 
 
 
