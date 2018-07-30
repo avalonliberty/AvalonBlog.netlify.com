@@ -7,17 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>avalonliberty32@gmail.com (Avalon Lin)</managingEditor>
     <webMaster>avalonliberty32@gmail.com (Avalon Lin)</webMaster>
-    <lastBuildDate>Thu, 26 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>美國留學行前雜感</title>
+      <link>/post/2018/07/2018-07-30-/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      <author>avalonliberty32@gmail.com (Avalon Lin)</author>
+      <guid>/post/2018/07/2018-07-30-/</guid>
+      <description>終於到了前往Postdam的這一週了，這樣想想時間也算是飛快的過去了，去年的這時候還在跟GRE纏鬥呢。這期間最常被人問到的問題就是即將要到美國去了，我會緊張嗎？ 我從來沒想過這個問題，我的反應往往是為什麼我要緊張呢？我才知道原來常人都會緊張的，但是對我來說需要害怕的事物才會讓我緊張，像是針頭之類的東西。但是新的挑戰往往只會讓我很興奮或高興而已，我一直是一個害怕無聊的人，一直躺在床上始終不是我的風格。前往美國不只是為了讓我對資料科學有近一步的認識與理解，也是我第一次真正的自己面對自己的人生，當面對挫折與失敗的時候必須要自己面對與調解，是一種非常好的歷練。
+這將近一年半的準備期讓我體會到每個出國的人真的都有兩把刷子，除了經濟問題不談之外，這一年半會遇到的問題真的是千奇百怪，是我從未遇過也未曾想過的問題，從簽證面試到與學校的溝通，時常會遇到很多危機。解決問題永遠是複雜困難的，也讓我從中學到了學生時期不曾有的能力，雖然這也是在學生時間，但是過去可能家人或朋友都能給上不少意見與幫忙，國外的學校卻只有你自己與自己了解這流程與經歷，沒人會跟你討論也不會告訴你方向。最重要的協助往往都是來自螢幕與網路線對面那端的陌生人與走過這條路的前輩所留下的隻字片語，我們都得感謝我們生在這個網路與資訊蓬勃發展的時代，若非這些文字的流傳，恐怕在更早期的留學所要面對的挑戰更是現今所無法想像的困難。
+小時候課本裡的文字總是生澀難解，陳之藩所著的一文“謝天”更是令人難以理解，感謝想感謝的人就好，為何需要感謝一個虛無飄渺的天呢？過了那麼多年才真的理解，有些人給你的幫助無以言喻，給過我們支援的人更是難以估計，只能以感謝天來對這些關懷與協助表示感謝。從我最重要的媽媽、哥哥、姊姊、TOEFL的好戰友們、PTT上對留學懷有熱情的夥伴們，還有從中不斷鼓勵我的人們，如果沒有他們，我恐怕很難走到這裡。</description>
+    </item>
+    
+    <item>
       <title>data.table tip to split data</title>
-      <link>/post/data-table-tip-to-split-data/</link>
+      <link>/post/2018/07/data-table-tip-to-split-data/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       <author>avalonliberty32@gmail.com (Avalon Lin)</author>
-      <guid>/post/data-table-tip-to-split-data/</guid>
+      <guid>/post/2018/07/data-table-tip-to-split-data/</guid>
       <description>Motivation The invention of internet and booming users of it contribute to the massive amount of data that we never met before. We can easily access to valuable data like weather, traffic, and so on. Though, it pretty likely that the data are format in comma separated format or seperated by given symbols. The most common case is file name. It’s not a surprise to see some file name like 1992-07-09_Avalon_Male_Taiwan.</description>
     </item>
     

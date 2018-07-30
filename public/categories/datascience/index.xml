@@ -14,10 +14,10 @@
     
     <item>
       <title>data.table tip to split data</title>
-      <link>/post/data-table-tip-to-split-data/</link>
+      <link>/post/2018/07/data-table-tip-to-split-data/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       <author>avalonliberty32@gmail.com (Avalon Lin)</author>
-      <guid>/post/data-table-tip-to-split-data/</guid>
+      <guid>/post/2018/07/data-table-tip-to-split-data/</guid>
       <description>Motivation The invention of internet and booming users of it contribute to the massive amount of data that we never met before. We can easily access to valuable data like weather, traffic, and so on. Though, it pretty likely that the data are format in comma separated format or seperated by given symbols. The most common case is file name. It’s not a surprise to see some file name like 1992-07-09_Avalon_Male_Taiwan.</description>
     </item>
     
