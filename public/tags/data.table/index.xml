@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data.table on Avalon Lin</title>
+    <title>Data.table on Avalon Lin | 林瑋晟</title>
     <link>/tags/data.table/</link>
-    <description>Recent content in Data.table on Avalon Lin</description>
+    <description>Recent content in Data.table on Avalon Lin | 林瑋晟</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>avalonliberty32@gmail.com (Avalon Lin)</managingEditor>
     <webMaster>avalonliberty32@gmail.com (Avalon Lin)</webMaster>
@@ -14,10 +14,10 @@
     
     <item>
       <title>data.table tip to split data</title>
-      <link>/post/2018/07/data-table-tip-to-split-data/</link>
+      <link>/post/data-table-tip-to-split-data/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       <author>avalonliberty32@gmail.com (Avalon Lin)</author>
-      <guid>/post/2018/07/data-table-tip-to-split-data/</guid>
+      <guid>/post/data-table-tip-to-split-data/</guid>
       <description>Motivation The invention of internet and booming users of it contribute to the massive amount of data that we never met before. We can easily access to valuable data like weather, traffic, and so on. Though, it pretty likely that the data are format in comma separated format or seperated by given symbols. The most common case is file name. It’s not a surprise to see some file name like 1992-07-09_Avalon_Male_Taiwan.</description>
     </item>
     
